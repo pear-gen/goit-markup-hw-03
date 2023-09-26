@@ -260,12 +260,10 @@ ul {
  }
 .address-text {
     margin-top: 28px;
-    margin-bottom: 0px;
-}
-.address-links li {
-    margin-top: 12px;
+    margin-bottom: 12px;
 }
 .address-links {
+    gap: 12px;
     margin: 0px;
     padding: 0px;
 }
@@ -278,7 +276,6 @@ ul {
     font-style: normal;
     line-height: 1.71;    
     text-decoration: none;
-    margin-top: 12px;
  }
  .address-links a:hover,
  .address-links a:focus {
