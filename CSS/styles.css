@@ -251,19 +251,22 @@ ul {
 }
  .footer,
   .footer .logo {color: #ffffff ;
-        background-color: #2F303A;}  
+        background-color: #2F303A;
+    margin: 0 0 28px 0;}  
   .footer p {
     color: #FFFFFF;
     background-color:#2F303A;
     font-size: 14px;
     font-style: normal;
+    margin-bottom: 12px;
+ }
+ .footer li {
+    margin-bottom: 12px;
  }
 .address-text {
-    margin-top: 28px;
-    margin-bottom: 12px;
+    margin: 0;
 }
 .address-links {
-    gap: 12px;
     margin: 0px;
     padding: 0px;
 }
@@ -274,8 +277,9 @@ ul {
     font-weight: 400;
     font-size: 14px;
     font-style: normal;
-    line-height: 1.71;    
+    line-height: 16px;    
     text-decoration: none;
+    margin: 12px 0;
  }
  .address-links a:hover,
  .address-links a:focus {
