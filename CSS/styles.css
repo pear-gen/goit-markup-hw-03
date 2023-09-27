@@ -227,8 +227,10 @@ img {
     background-color:var(--special-background-color);
 
     font-size: 16px;
-    line-height: 1.19;
-   
+    line-height: 1.19;   
+}
+.command-text {
+    padding: 30px 0;
 }
 .devs {
     display: flex;
@@ -277,15 +279,18 @@ img {
     font-size: 14px;
     font-style: normal;
  }
- .footer li {
-    margin: 12px 0 0 0;
- }
 .address-text {
     margin: 0;
 }
 .address-links {
-    margin: 0;
+    margin: 12px 0 0;
     padding: 0;
+}
+.address-links li{
+    margin-bottom: 12px;
+}
+.address-links li:last-child{
+    margin-bottom: 0;
 }
  .address-links a {
 
