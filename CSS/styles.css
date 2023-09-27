@@ -157,14 +157,13 @@ img {
 .about{
     padding-top: 0;
 }
-.visually-hidden{
+.visually-hidden {
     position: absolute;
-    width: 1px;
     height: 1px;
-    margin: -1px;
-    padding: 0;
-    border: 0;
+    width: 1px;
     overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap;/
 }
 .section-title {
     color: var(--title-text-color);
