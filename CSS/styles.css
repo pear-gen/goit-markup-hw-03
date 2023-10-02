@@ -163,7 +163,7 @@ img {
     width: 1px;
     overflow: hidden;
     clip: rect(1px, 1px, 1px, 1px);
-    white-space: nowrap;/
+    white-space: nowrap;
 }
 .section-title {
     color: var(--title-text-color);
@@ -253,7 +253,7 @@ img {
 
     /*Футер */
 .footer{
-    padding: 0;
+    padding: 60px 0;
     background: #2F303A;
 }
 
@@ -262,8 +262,7 @@ img {
     flex-direction: column;
     align-content: space-around;
     justify-content: space-between;
-    padding: 60px 0;
-
+    padding: 0;
 }
  .footer,
   .footer .logo {color: #ffffff ;
@@ -315,6 +314,9 @@ img {
 /* колір фону героя  та футера #2F303A */
 
 /* Портфоліо */
+section{
+    padding: 94px 0;
+}
 a {text-decoration: none;
 color: var(--primary-text-color)}
 .site-nav-portfolio button{
@@ -325,8 +327,15 @@ color: var(--primary-text-color)}
     height: auto;
     width: auto;
     border: none;
-    margin: 4px;
     cursor: pointer;
+}
+.card p {
+    margin: 0;
+    padding: 0;
+}
+.card h2{
+    margin: 0;
+    padding: 0;
 }
 .site-nav-portfolio button:hover,
 .site-nav-portfolio button:focus {
@@ -338,7 +347,9 @@ color: var(--primary-text-color)}
     display: flex;
 
     justify-content: center;
-    padding-bottom: 50px;
+    gap: 8px;
+    margin: 0;
+    padding: 0 0 50px 0;
 }
 .portfolio {
     display: flex;
@@ -351,17 +362,14 @@ color: var(--primary-text-color)}
     line-height: 1.88;
     letter-spacing: 0.03em;
     margin: 0;
-    padding-top: 0;
+    padding: 0;
 }
 .card{
-    flex: 1;
-    border: 1px solid #eee;
     background: #ffffff;
-
-    flex-basis: calc((100% - 2 * 30) / 3);
-    height: auto;
-    flex-shrink: 0;
-    flex-grow: 0;
+}
+.card-text {
+    padding: 20px 24px;
+    gap: 4px;
 }
 .portfolio-title {
    color: var(--title-text-color); 
@@ -370,9 +378,6 @@ color: var(--primary-text-color)}
     font-size: 18px;
     line-height: 2.25;
     letter-spacing: 0.068em;
-}
-.card p {
-    padding-bottom: 20px;
 }
 hr {
     border: none;
