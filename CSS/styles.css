@@ -146,8 +146,6 @@ img {
     width: 200px;
     border: none;
     border-radius: 4px;
-    
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 /* Секція особливостей */
 
@@ -186,7 +184,7 @@ img {
 }
 /* Features */
 
-.Features {
+.features {
     display: flex;
 
     align-items: baseline;
@@ -197,10 +195,11 @@ img {
 .Features li {
     width: 270px;
 }
-.Features p {
+.features p {
     margin: 10px 0 0;
+    line-height: 24px;
 }
-.Features .title {
+.features .title {
     color: var(--title-text-color);
 
     margin: 0;
@@ -262,7 +261,7 @@ img {
     flex-direction: column;
     align-content: space-around;
     justify-content: space-between;
-    padding: 0;
+    padding: 15px 0;
 }
  .footer,
   .footer .logo {color: #ffffff ;
@@ -341,6 +340,7 @@ color: var(--primary-text-color)}
 .site-nav-portfolio button:focus {
     color: #FFFFFF;
     background-color: var(--accent-text-color);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .site-nav-portfolio{
@@ -348,8 +348,8 @@ color: var(--primary-text-color)}
 
     justify-content: center;
     gap: 8px;
-    margin: 0;
-    padding: 0 0 50px 0;
+    margin: 0 0 50px 0;
+    padding: 0 ;
 }
 .portfolio {
     display: flex;
@@ -369,7 +369,11 @@ color: var(--primary-text-color)}
 }
 .card-text {
     padding: 20px 24px;
-    gap: 4px;
+    border: 1px solid #EEE;
+    border-top: none;
+}
+.card-text p {
+    margin-top: 4px;
 }
 .portfolio-title {
    color: var(--title-text-color); 
