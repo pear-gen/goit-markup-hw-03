@@ -192,7 +192,7 @@ img {
     margin: 0;
     padding: 0;
 }
-.Features li {
+.features li {
     width: 270px;
 }
 .features p {
@@ -366,6 +366,7 @@ color: var(--primary-text-color)}
 }
 .card{
     background: #ffffff;
+    width: 370px;
 }
 .card-text {
     padding: 20px 24px;
